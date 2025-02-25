@@ -1,11 +1,11 @@
-package Builder.Components;
+package Builder.components;
 
 public class Engine {
-    private final double volume;
-    private double mileage;
+    private final int volume;
+    private int mileage;
     private boolean started;
 
-    public Engine(double volume, double mileage) {
+    public Engine(int volume, int mileage) {
         this.volume = volume;
         this.mileage = mileage;
     }
@@ -26,7 +26,7 @@ public class Engine {
         if (started) {
             this.mileage += mileage;
         } else {
-            System.err.println("Cannot go(), you must start engine first!");
+            System.err.println("Cannot go, you must start engine first!");
         }
     }
 
