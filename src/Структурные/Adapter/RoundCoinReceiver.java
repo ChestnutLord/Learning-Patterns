@@ -1,4 +1,4 @@
-package Adapter;
+package Структурные.Adapter;
 
 public class RoundCoinReceiver {
     private int radius;

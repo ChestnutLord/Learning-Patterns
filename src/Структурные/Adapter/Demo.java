@@ -1,4 +1,4 @@
-package Adapter;
+package Структурные.Adapter;
 
 public class Demo {
     public static void main(String[] args) {

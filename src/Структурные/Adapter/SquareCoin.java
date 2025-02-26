@@ -1,15 +1,13 @@
-package Adapter;
+package Структурные.Adapter;
 
-public class RoundCoin {
+public class SquareCoin {
     private int radius;
 
-    public RoundCoin(int radius) {
+    public SquareCoin(int radius) {
         this.radius = radius;
     }
 
     public int getRadius() {
         return radius;
     }
-
-    public RoundCoin(){};
 }
