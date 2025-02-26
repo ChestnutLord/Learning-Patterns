@@ -2,7 +2,7 @@ package Prototype;
 
 public class Demo {
     public static void main(String[] args) {
-        Prototype prototype = new MyObject("»Ïˇ", "Yaaew_3-1-uy_eR4", 86, true);
+        Prototype prototype = new MyObject("–ò–º—è", "Yaaew_3-1-uy_eR4", 86, true);
         Prototype prototype2=prototype.clone();
         Prototype prototype3=prototype.clone();
         Prototype prototype4=prototype.clone();
