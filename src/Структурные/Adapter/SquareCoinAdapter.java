@@ -1,4 +1,4 @@
-package РЎС‚СЂСѓРєС‚СѓСЂРЅС‹Рµ.Adapter;
+package Структурные.Adapter;
 
 public class SquareCoinAdapter extends RoundCoin{
     private int radius;
