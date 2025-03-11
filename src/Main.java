@@ -1,6 +1,6 @@
-import Пораждающие.Abstract_Fabrica.AbstractFactory;
-import Пораждающие.Abstract_Fabrica.ClassicFactory;
-import Пораждающие.Fabrica.*;
+import Creational.Abstract_Fabrica.AbstractFactory;
+import Creational.Abstract_Fabrica.ClassicFactory;
+import Creational.Fabrica.*;
 
 public class Main {
     public static void main(String[] args) {
