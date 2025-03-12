@@ -2,9 +2,9 @@ package Structural.Proxy.some_cool_media_library;
 
 public class Video {
 
-    private String id;
-    private String title;
-    private String data;
+    public String id;
+    public String title;
+    public String data;
 
     public Video(String id, String title) {
         this.id = id;

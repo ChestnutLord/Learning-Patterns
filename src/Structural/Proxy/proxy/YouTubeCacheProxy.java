@@ -1,6 +1,7 @@
 package Structural.Proxy.proxy;
 
 import java.util.HashMap;
+
 import Structural.Proxy.some_cool_media_library.*;
 
 public class YouTubeCacheProxy implements ThirdPartyYouTubeLib {
@@ -39,5 +40,4 @@ public class YouTubeCacheProxy implements ThirdPartyYouTubeLib {
         cachePopular.clear();
         cacheAll.clear();
     }
-}
 }
