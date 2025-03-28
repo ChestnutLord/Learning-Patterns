@@ -3,12 +3,12 @@ package Creational.Abstract_Fabrica;
 public class ArNuvoFactory implements AbstractFactory{
 
     @Override
-    public Chair giveChair() {
+    public Chair createChair() {
         return new ArNuvoChair();
     }
 
     @Override
-    public Sofa giveSofa() {
+    public Sofa createSofa() {
         return new ArNuvoSofa();
     }
 }

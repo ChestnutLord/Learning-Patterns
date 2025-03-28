@@ -5,7 +5,7 @@ public class Demo {
         RoundCoinReceiver roundCoinReceiver = new RoundCoinReceiver(5);
 
         RoundCoin roundCoin = new RoundCoin(4);
-        SquareCoin squareCoin = new SquareCoin(3);
+        SquareCoin squareCoin = new SquareCoin(5);
 
         SquareCoinAdapter squareCoinAdapter = new SquareCoinAdapter(squareCoin);
 
@@ -16,6 +16,5 @@ public class Demo {
         if (roundCoinReceiver.receive(squareCoinAdapter)) {
             System.out.println("Квадратная монета подходит");
         }
-
     }
 }

@@ -3,7 +3,7 @@ package Creational.Abstract_Fabrica;
 public class ArNuvoSofa implements Sofa{
 
     @Override
-    public void giveName() {
+    public void giveInfo() {
         System.out.println("ArNuvo Sofa");
     }
 }

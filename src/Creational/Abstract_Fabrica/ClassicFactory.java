@@ -2,12 +2,12 @@ package Creational.Abstract_Fabrica;
 
 public class ClassicFactory implements AbstractFactory {
     @Override
-    public Chair giveChair() {
+    public Chair createChair() {
         return new ClassicChair();
     }
 
     @Override
-    public Sofa giveSofa() {
+    public Sofa createSofa() {
         return new ClassicSofa();
     }
 }
