@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/Behave/CoR/Demo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Creational/Prototype/Demo.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Structural/Adapter/RoundCoin.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/Structural/Adapter/RoundCoinReceiver.java" charset="UTF-8" />
